@@ -1,0 +1,152 @@
+body{
+	width: 100%; /*Dimensão da pag*/
+	margin: auto;
+	background: #FAFAFA; /*cor de fundo*/
+	font-family: arial;
+}
+.container{	
+	width: 940px; /*Dimensão do corpo da pag*/
+	margin: 0 auto;
+}
+.formulario{	
+	width: 940px; /*Dimensão do corpo da pag*/
+	margin: 0 auto;
+	background-color: #FFF;
+
+}
+.header{ 
+	/*menu*/
+	Background: #000000; /*Cor*/
+	width: 100%; /*Tamanho horizontal*/
+	top: 0;
+	position: fixed; /*Posição*/
+	z-index: 1; /*CORREÇÃO PARA NÃO SOBREPOSIÇÃO DOS BOTÕES DO SLIDE*/
+	
+}
+.logo{
+	float: left; /*Pocisão logo*/
+
+}
+a{
+	text-decoration: none;/*Sem sublinhado*/
+	color: #FFF;	
+}
+li{
+	list-style: none;
+	float: left;
+	margin-left: 30px;
+	padding-top: 15px;
+	display: block; 	
+}
+li:hover {
+	padding: 11px;
+	transition: 0.5s linear;
+	/*background-color: #ffffff;*/ /*cor quando o mouse sobrepõe o menu*/
+}
+.nav{
+	float: right;
+	font-family: "Arial";
+}
+
+h1{
+	font-family: "Arial"; /*Fonte*/
+	font-size: 25px; /*Tamanho da fonte*/
+}
+p{
+	font-family: "Arial"; /*Fonte*/
+	font-size: 12px; /*Tamanho da fonte*/
+}
+#c-slider {
+	background-color: black; /*Cor do fundo do slide*/
+	padding-top: 64px;
+	margin: auto;
+	width: 80%;
+	max-width: 900px;
+	position: flex;
+	overflow: hidden;
+}
+
+#slider {
+	display: flex;
+	width: 300%;
+    left: 10%;
+    right: 0;
+    margin: auto;
+}
+
+#slider section{
+	width: 100%;
+}
+
+#slider img{
+	display: block;
+	width: 100%;
+	height: 100%; 
+}
+
+#btn-prev, #btn-next {
+	width: 45px;
+	height: 45px;
+	background:rgba(255, 255, 255, 0.5);
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	line-height: 40px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 30px;
+	font-family: monospace;
+	cursor: pointer;
+	
+}
+#btn-prev:hover, #btn-next:hover {
+	background:rgba(255, 255, 255, 1);
+}
+#btn-prev{
+	left: 215px;
+}
+#btn-next{
+	right: 215px;
+}
+.sub{ text-align: center;background-color: #000000; color: white;}/* TITULO DO FORMULARIO*/
+.let {text-align: center;background-color: #000000; color: white;}/* TITULOS DO SITE SEM MARGIN-TOP*/
+.lucas{ text-align: center;background-color: #000000; color: white; margin-top: 70px;/* TODOS TITULOS DO SITE*/
+background-repeat: no-repeat; background-position: center center;background-size: contain;}/* TODOS TITULOS DO SITE*/
+.rubens{text-align: center; padding-top: 30px;}/* TEXTO DENTRO DO RODAPÉ*/
+.rodape{width: 100%; height: 70px; background-color: #000000; color: #fff; clear: both;}/* RODAPÉ DAS PAGINAS*/
+.texto{text-indent: 30px; text-align: justify;}/* TODOS TEXTO DO SITE*/
+.mapa { padding: 0; margin: 0;}/* MAPA GOOGLE*/
+.sorte{width: 940px;height:500px;margin:auto;} /* DIV PARA COLOCAR A DIV DE CONTATOS E DE LOCALIZAÇÃO*/
+.contatos{width: 940px;height:500px;margin-top:70px;}	/* POSICIÇÃO DOS TITULOS DA DIV CONTATO E LOCALIZAÇÃO*/
+.ola{background-color:black;font-size: 20px;font-weight: bold;margin:0px;padding: 5px;color: white;}/* NOME CONTATOS E LOCALIZAÇÃO*/
+.S{height: 500px; width: 450px;background-color: #FFE4C4;float: right;margin:0;padding: 0;}/* TAMANHO DO TITULO CONTATO*/
+.tamanho{height: 500px; width: 450px;background-color: WHITE;float: left;margin:0;padding: 0;}/* TAMANHO DO TITULO LOCALIZAÇÃO*/
+.nome{color:white;text-align: center;margin: 0;padding: 0;}	/* NOME DOS MEMBROS DO GRUPO*/	
+.diferencial{width: 945px;height:270px;margin-top:70px;margin: 0;padding: 0;border: 0;}/* DIVISORIA DE CONTEUDO*/
+.oposto{background-color: black;margin:0;padding: 10px;text-align: center;color: white;font-size: 20px;font-weight: bold;}/* TITULO MISSA, VISAO E VALORES*/
+.fundadores{background-color: white; width: 940px; height: 470px; }
+.fotos{background-color: black; width: 225px; height: 447px; margin-left: 5px; border: solid 1px black;}
+.nos{background-color: white; width: 945px; height: 600px; border: solid 1px black; box-shadow: 5px 5px  #888888;}
+.missao{background-color: white; width: 940px; height: 200px;}
+.sys{ border: solid 1px black; width: 350px;  height :297px; float:left;}
+.eu { width: 550px; height :350px; float: right;}
+.sys1{ border: solid 1px black; width: 350px;  height :297px; float:right;}
+.eu1{ width: 550px; height :350px; float:left;}
+
+form{padding-top: 0px;}
+fieldset {width: auto;}
+label {display:block;}
+label.inline {display:inline-block;}
+
+.fotos1{ width: 50%; height: 100%;BORDER-RADIUS:50%; background: url(luan.jpg) no-repeat; background-size: cover; border: solid 1px black;} 
+.fotos1:hover { width: 50%; height: 100%;BORDER-RADIUS:50%; background: url(Xayah.jpg) no-repeat; background-size: cover;border: solid 1px black;} 
+
+.fotos2{ width: 225px; height: 447px; background: url(helio.jpg) no-repeat; background-size: cover; border: solid 1px black;} 
+.fotos2:hover { width: 225px; height: 447px; background: url(naruto.gif) no-repeat; background-size: cover;border: solid 1px black;} 
+
+.fotos3{ width: 225px; height: 447px; background: url(gui.jpg) no-repeat; background-size: cover; border: solid 1px black;} 
+.fotos3:hover { width: 225px; height: 447px; background: url(Rakan.jpg) no-repeat; background-size: cover;border: solid 1px black;} 
+
+.fotos4{ width: 225px; height: 447px; background: url(andre.jpg) no-repeat; background-size: cover; border: solid 1px black;} 
+.fotos4:hover { width: 225px; height: 447px; background: url(megumim.gif) no-repeat; background-size: cover;border: solid 1px black;} 
